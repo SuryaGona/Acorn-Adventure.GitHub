@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="game_178" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/game_178" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="C:/Projects/Final_Game_Project_178-main" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/game_178" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="C:/Mac/Home/Desktop/FInal_178/common/bin" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="../common/include" />
+			<Add directory="include" />
+			<Add directory="src" />
+			<Add directory="C:/Users/Andrew/Documents/GitHub/Final_Game_Project_178" />
+		</Compiler>
+		<Linker>
+			<Add library="../common/lib/libSoil.a" />
+			<Add library="../common/lib/glew32.lib" />
+			<Add library="../common/lib/glut32.lib" />
+			<Add library="opengl32" />
+			<Add library="glu32" />
+			<Add library="winmm" />
+			<Add library="gdi32" />
+			<Add library="../common/lib/libirrKlang.a" />
+			<Add directory="../common/lib" />
+		</Linker>
+		<Unit filename="SNDS/ik_ESoundEngineOptions.h" />
+		<Unit filename="SNDS/ik_ESoundOutputDrivers.h" />
+		<Unit filename="SNDS/ik_EStreamModes.h" />
+		<Unit filename="SNDS/ik_IAudioRecorder.h" />
+		<Unit filename="SNDS/ik_IAudioStream.h" />
+		<Unit filename="SNDS/ik_IAudioStreamLoader.h" />
+		<Unit filename="SNDS/ik_IFileFactory.h" />
+		<Unit filename="SNDS/ik_IFileReader.h" />
+		<Unit filename="SNDS/ik_IRefCounted.h" />
+		<Unit filename="SNDS/ik_ISound.h" />
+		<Unit filename="SNDS/ik_ISoundDeviceList.h" />
+		<Unit filename="SNDS/ik_ISoundEffectControl.h" />
+		<Unit filename="SNDS/ik_ISoundEngine.h" />
+		<Unit filename="SNDS/ik_ISoundMixedOutputReceiver.h" />
+		<Unit filename="SNDS/ik_ISoundSource.h" />
+		<Unit filename="SNDS/ik_ISoundStopEventReceiver.h" />
+		<Unit filename="SNDS/ik_IVirtualRefCounted.h" />
+		<Unit filename="SNDS/ik_SAudioStreamFormat.h" />
+		<Unit filename="SNDS/ik_irrKlangTypes.h" />
+		<Unit filename="SNDS/ik_vec3d.h" />
+		<Unit filename="SNDS/irrKlang.h" />
+		<Unit filename="include/_collisioncheck.h" />
+		<Unit filename="include/_common.h" />
+		<Unit filename="include/_enms.h" />
+		<Unit filename="include/_game.h" />
+		<Unit filename="include/_inputs.h" />
+		<Unit filename="include/_level1.h" />
+		<Unit filename="include/_level2.h" />
+		<Unit filename="include/_level3.h" />
+		<Unit filename="include/_lightsettings.h" />
+		<Unit filename="include/_menu.h" />
+		<Unit filename="include/_model.h" />
+		<Unit filename="include/_modelvbo.h" />
+		<Unit filename="include/_parallax.h" />
+		<Unit filename="include/_player.h" />
+		<Unit filename="include/_quad.h" />
+		<Unit filename="include/_scene.h" />
+		<Unit filename="include/_sounds.h" />
+		<Unit filename="include/_textureloader.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/_collisioncheck.cpp" />
+		<Unit filename="src/_enms.cpp" />
+		<Unit filename="src/_game.cpp" />
+		<Unit filename="src/_inputs.cpp" />
+		<Unit filename="src/_level1.cpp" />
+		<Unit filename="src/_level2.cpp" />
+		<Unit filename="src/_level3.cpp" />
+		<Unit filename="src/_lightsettings.cpp" />
+		<Unit filename="src/_menu.cpp" />
+		<Unit filename="src/_model.cpp" />
+		<Unit filename="src/_modelvbo.cpp" />
+		<Unit filename="src/_parallax.cpp" />
+		<Unit filename="src/_player.cpp" />
+		<Unit filename="src/_quad.cpp" />
+		<Unit filename="src/_scene.cpp" />
+		<Unit filename="src/_sounds.cpp" />
+		<Unit filename="src/_textureloader.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

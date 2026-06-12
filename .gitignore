@@ -1,0 +1,15 @@
+﻿# Source build output
+Source_Code/**/bin/
+Source_Code/**/obj/
+Source_Code/**/*.exe
+Source_Code/**/*.dll
+*.o
+
+# Code::Blocks temp files
+*.layout
+*.depend
+*.cbTemp
+
+# Windows junk
+Thumbs.db
+desktop.ini
